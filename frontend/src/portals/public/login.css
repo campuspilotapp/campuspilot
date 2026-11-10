@@ -1,0 +1,8 @@
+@import "tailwindcss/theme.css";
+@import "tailwindcss/utilities.css";
+
+@source "../../";
+
+:where(.login-page) :where(h1, h2, p) {
+  margin: 0;
+}
